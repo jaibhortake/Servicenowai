@@ -13,6 +13,12 @@ import os
 import sys
 from typing import Any, Dict, Optional
 
+try:  # trust the OS certificate store (corporate/AV TLS inspection roots)
+    import truststore
+    truststore.inject_into_ssl()
+except ImportError:
+    pass
+
 import uvicorn
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException

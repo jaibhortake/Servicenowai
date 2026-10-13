@@ -1,0 +1,8 @@
+u_external_id,u_known_issue_title,u_domain,u_severity,u_detection_signal,u_recommended_response,u_status,u_source_system
+KI_VM_443_BLOCK,VM Analytics collector cannot phone home when outbound HTTPS 443 is blocked,VM Analytics,High,Telemetry + case evidence + version/environment matching,Allow required endpoints and rerun phone-home test,Active,SRC_MON
+KI_VM_DNS_NTP,Collector registration unstable due to DNS or NTP drift,VM Analytics,Medium,Telemetry + case evidence + version/environment matching,Correct DNS/NTP and restart collector service,Active,SRC_MON
+KI_FA_LAT_HOST,High latency caused by host queue depth saturation,Performance,High,Telemetry + case evidence + version/environment matching,Review host multipathing and queue depth configuration,Active,SRC_MON
+KI_FA_CAP_SNAP,Snapshot growth causing capacity forecast risk,Capacity,Medium,Telemetry + case evidence + version/environment matching,Review retention and capacity expansion plan,Active,SRC_MON
+KI_GW_CACHE,Gateway slow response due to undersized cache during peak workload,Gateway,High,Telemetry + case evidence + version/environment matching,Increase cache and verify cloud endpoint latency,Active,SRC_MON
+KI_UPG_EDGE,Upgrade blocked because edge management or upgrade agent is not ready,Upgrade,High,Telemetry + case evidence + version/environment matching,"Enable edge management, update agent, rerun pre-check",Active,SRC_MON
+KI_SAFE_UNUSUAL,Unusual data activity requires resilience and SafeMode validation,Security,Critical,Telemetry + case evidence + version/environment matching,"Validate snapshots, SafeMode status, and escalate",Active,SRC_MON

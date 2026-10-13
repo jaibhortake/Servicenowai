@@ -1,0 +1,10 @@
+u_external_id,u_incident_external_id,u_appliance_ci_id,u_vcenter,u_ova_power_state,u_collector_registered,u_last_metric_received,u_dns_status,u_ntp_status,u_outbound_https_443,u_collector_service_state,u_source_system
+VMW_0010,APP_INC_0010,CI_0003,vcenter-gfs.corp.local,Powered On,No,2 days ago,Failed,In Sync,Allowed,Restart Required,SRC_VMWARE + SRC_NET
+VMW_0011,APP_INC_0011,CI_0009,vcenter-med.corp.local,Powered On,Yes,Never,Failed,In Sync,Blocked,Restart Required,SRC_VMWARE + SRC_NET
+VMW_0020,APP_INC_0020,CI_0037,vcenter-log.corp.local,Powered On,Yes,14 hours ago,Failed,In Sync,Allowed,Running,SRC_VMWARE + SRC_NET
+VMW_0023,APP_INC_0023,CI_0037,vcenter-log.corp.local,Powered On,Yes,Never,Resolved,In Sync,Blocked,Running,SRC_VMWARE + SRC_NET
+VMW_0027,APP_INC_0027,CI_0027,vcenter-edu.corp.local,Powered On,No,Never,Resolved,In Sync,Blocked,Running,SRC_VMWARE + SRC_NET
+VMW_0036,APP_INC_0036,CI_0043,vcenter-ins.corp.local,Powered On,No,14 hours ago,Resolved,In Sync,Allowed,Running,SRC_VMWARE + SRC_NET
+VMW_0039,APP_INC_0039,CI_0037,vcenter-log.corp.local,Powered On,Yes,14 hours ago,Resolved,In Sync,Blocked,Restart Required,SRC_VMWARE + SRC_NET
+VMW_0041,APP_INC_0041,CI_0032,vcenter-tel.corp.local,Powered On,Yes,14 hours ago,Resolved,Drift Detected,Blocked,Restart Required,SRC_VMWARE + SRC_NET
+VMW_0049,APP_INC_0049,CI_0021,vcenter-mfg.corp.local,Powered On,No,14 hours ago,Resolved,Drift Detected,Blocked,Restart Required,SRC_VMWARE + SRC_NET

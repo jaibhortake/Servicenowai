@@ -1,0 +1,7 @@
+u_external_id,u_model_name,u_model_type,u_family,u_supported_version_family,u_description,u_owner_group
+MODEL_FA_X90,FlashArray//X90,Block Storage Appliance,FA,6.4.x,High performance block workloads,Storage Platform Support
+MODEL_FA_C60,FlashArray//C60,Capacity Flash Appliance,FA,6.3.x,Capacity optimized workloads,Storage Platform Support
+MODEL_FB_S500,FlashBlade//S500,File/Object Storage Appliance,FB,4.3.x,"Analytics, backup, file/object workloads",Storage Platform Support
+MODEL_VM_COLLECTOR,VM Analytics Collector OVA,Virtual Appliance,OVA,4.1.x,VMware topology and metrics collection,VMware Integration Support
+MODEL_CLOUD_GATEWAY,Storage Gateway Appliance,Gateway Appliance,GW,3.8.x,Hybrid cloud storage access,Cloud & Gateway Support
+MODEL_UPGRADE_AGENT,Upgrade Edge Agent,Management Agent,AGENT,2.7.x,Self-service upgrade orchestration,Cloud & Gateway Support

@@ -1,0 +1,100 @@
+u_external_id,u_from_type,u_from_id,u_relationship,u_to_type,u_to_id,u_weight,u_explanation,u_source_system
+REL_0001,Issue,ISSUE_VMWARE_VM_ANALYTICS,INDICATES,RootCause,CAUSE_VM_443,0.58,VMware / VM Analytics symptom may indicate Outbound HTTPS 443 blocked,SRC_CASE_HIST
+REL_0002,RootCause,CAUSE_VM_443,REQUIRES_CHECK,Condition,COND_SCOPE,0.7,Check condition to confirm/reject Outbound HTTPS 443 blocked,SRC_KB
+REL_0003,RootCause,CAUSE_VM_443,REQUIRES_CHECK,Condition,COND_LAST_DATA,0.52,Check condition to confirm/reject Outbound HTTPS 443 blocked,SRC_KB
+REL_0004,RootCause,CAUSE_VM_443,REQUIRES_CHECK,Condition,COND_REGISTERED,0.59,Check condition to confirm/reject Outbound HTTPS 443 blocked,SRC_KB
+REL_0005,RootCause,CAUSE_VM_443,REQUIRES_CHECK,Condition,COND_FIREWALL,0.44,Check condition to confirm/reject Outbound HTTPS 443 blocked,SRC_KB
+REL_0006,RootCause,CAUSE_VM_443,GUIDED_BY,Runbook,KB_VM_001,0.85,Approved runbook for Outbound HTTPS 443 blocked,SRC_KB
+REL_0007,Issue,ISSUE_VMWARE_VM_ANALYTICS,INDICATES,RootCause,CAUSE_VM_REG,0.69,VMware / VM Analytics symptom may indicate Collector not registered,SRC_CASE_HIST
+REL_0008,RootCause,CAUSE_VM_REG,REQUIRES_CHECK,Condition,COND_SCOPE,0.5,Check condition to confirm/reject Collector not registered,SRC_KB
+REL_0009,RootCause,CAUSE_VM_REG,REQUIRES_CHECK,Condition,COND_LAST_DATA,0.57,Check condition to confirm/reject Collector not registered,SRC_KB
+REL_0010,RootCause,CAUSE_VM_REG,REQUIRES_CHECK,Condition,COND_REGISTERED,0.64,Check condition to confirm/reject Collector not registered,SRC_KB
+REL_0011,RootCause,CAUSE_VM_REG,REQUIRES_CHECK,Condition,COND_FIREWALL,0.4,Check condition to confirm/reject Collector not registered,SRC_KB
+REL_0012,RootCause,CAUSE_VM_REG,GUIDED_BY,Runbook,KB_VM_001,0.85,Approved runbook for Collector not registered,SRC_KB
+REL_0013,Issue,ISSUE_VMWARE_VM_ANALYTICS,INDICATES,RootCause,CAUSE_VM_DNS,0.6,VMware / VM Analytics symptom may indicate DNS or NTP misconfiguration,SRC_CASE_HIST
+REL_0014,RootCause,CAUSE_VM_DNS,REQUIRES_CHECK,Condition,COND_SCOPE,0.36,Check condition to confirm/reject DNS or NTP misconfiguration,SRC_KB
+REL_0015,RootCause,CAUSE_VM_DNS,REQUIRES_CHECK,Condition,COND_LAST_DATA,0.65,Check condition to confirm/reject DNS or NTP misconfiguration,SRC_KB
+REL_0016,RootCause,CAUSE_VM_DNS,REQUIRES_CHECK,Condition,COND_REGISTERED,0.46,Check condition to confirm/reject DNS or NTP misconfiguration,SRC_KB
+REL_0017,RootCause,CAUSE_VM_DNS,REQUIRES_CHECK,Condition,COND_FIREWALL,0.58,Check condition to confirm/reject DNS or NTP misconfiguration,SRC_KB
+REL_0018,RootCause,CAUSE_VM_DNS,GUIDED_BY,Runbook,KB_VM_001,0.85,Approved runbook for DNS or NTP misconfiguration,SRC_KB
+REL_0019,Issue,ISSUE_VMWARE_VM_ANALYTICS,HAS_KNOWN_ISSUE_SIGNAL,KnownIssue,KI_VM_443_BLOCK,0.72,Known issue database contains matching pattern for VMware / VM Analytics,SRC_MON
+REL_0020,Issue,ISSUE_PERFORMANCE,INDICATES,RootCause,CAUSE_HOST_QUEUE,0.69,Performance symptom may indicate Host queue depth saturation,SRC_CASE_HIST
+REL_0021,RootCause,CAUSE_HOST_QUEUE,REQUIRES_CHECK,Condition,COND_SCOPE,0.6,Check condition to confirm/reject Host queue depth saturation,SRC_KB
+REL_0022,RootCause,CAUSE_HOST_QUEUE,REQUIRES_CHECK,Condition,COND_CHANGE,0.49,Check condition to confirm/reject Host queue depth saturation,SRC_KB
+REL_0023,RootCause,CAUSE_HOST_QUEUE,REQUIRES_CHECK,Condition,COND_DURATION,0.55,Check condition to confirm/reject Host queue depth saturation,SRC_KB
+REL_0024,RootCause,CAUSE_HOST_QUEUE,GUIDED_BY,Runbook,KB_FA_001,0.85,Approved runbook for Host queue depth saturation,SRC_KB
+REL_0025,Issue,ISSUE_PERFORMANCE,INDICATES,RootCause,CAUSE_ARRAY_LOAD,0.56,Performance symptom may indicate Array workload spike,SRC_CASE_HIST
+REL_0026,RootCause,CAUSE_ARRAY_LOAD,REQUIRES_CHECK,Condition,COND_SCOPE,0.56,Check condition to confirm/reject Array workload spike,SRC_KB
+REL_0027,RootCause,CAUSE_ARRAY_LOAD,REQUIRES_CHECK,Condition,COND_CHANGE,0.6,Check condition to confirm/reject Array workload spike,SRC_KB
+REL_0028,RootCause,CAUSE_ARRAY_LOAD,REQUIRES_CHECK,Condition,COND_DURATION,0.41,Check condition to confirm/reject Array workload spike,SRC_KB
+REL_0029,RootCause,CAUSE_ARRAY_LOAD,GUIDED_BY,Runbook,KB_FA_001,0.85,Approved runbook for Array workload spike,SRC_KB
+REL_0030,Issue,ISSUE_PERFORMANCE,INDICATES,RootCause,CAUSE_CAPACITY_PRESSURE,0.61,Performance symptom may indicate Capacity or snapshot pressure,SRC_CASE_HIST
+REL_0031,RootCause,CAUSE_CAPACITY_PRESSURE,REQUIRES_CHECK,Condition,COND_SCOPE,0.42,Check condition to confirm/reject Capacity or snapshot pressure,SRC_KB
+REL_0032,RootCause,CAUSE_CAPACITY_PRESSURE,REQUIRES_CHECK,Condition,COND_CHANGE,0.36,Check condition to confirm/reject Capacity or snapshot pressure,SRC_KB
+REL_0033,RootCause,CAUSE_CAPACITY_PRESSURE,REQUIRES_CHECK,Condition,COND_DURATION,0.42,Check condition to confirm/reject Capacity or snapshot pressure,SRC_KB
+REL_0034,RootCause,CAUSE_CAPACITY_PRESSURE,GUIDED_BY,Runbook,KB_FA_001,0.85,Approved runbook for Capacity or snapshot pressure,SRC_KB
+REL_0035,Issue,ISSUE_PERFORMANCE,HAS_KNOWN_ISSUE_SIGNAL,KnownIssue,KI_FA_LAT_HOST,0.72,Known issue database contains matching pattern for Performance,SRC_MON
+REL_0036,Issue,ISSUE_CAPACITY,INDICATES,RootCause,CAUSE_SNAPSHOT_GROWTH,0.78,Capacity symptom may indicate Snapshot retention growth,SRC_CASE_HIST
+REL_0037,RootCause,CAUSE_SNAPSHOT_GROWTH,REQUIRES_CHECK,Condition,COND_GROWTH,0.51,Check condition to confirm/reject Snapshot retention growth,SRC_KB
+REL_0038,RootCause,CAUSE_SNAPSHOT_GROWTH,REQUIRES_CHECK,Condition,COND_SNAP,0.52,Check condition to confirm/reject Snapshot retention growth,SRC_KB
+REL_0039,RootCause,CAUSE_SNAPSHOT_GROWTH,REQUIRES_CHECK,Condition,COND_EXPANSION,0.47,Check condition to confirm/reject Snapshot retention growth,SRC_KB
+REL_0040,RootCause,CAUSE_SNAPSHOT_GROWTH,GUIDED_BY,Runbook,KB_FA_002,0.85,Approved runbook for Snapshot retention growth,SRC_KB
+REL_0041,Issue,ISSUE_CAPACITY,INDICATES,RootCause,CAUSE_DATA_GROWTH,0.57,Capacity symptom may indicate Unexpected workload data growth,SRC_CASE_HIST
+REL_0042,RootCause,CAUSE_DATA_GROWTH,REQUIRES_CHECK,Condition,COND_GROWTH,0.55,Check condition to confirm/reject Unexpected workload data growth,SRC_KB
+REL_0043,RootCause,CAUSE_DATA_GROWTH,REQUIRES_CHECK,Condition,COND_SNAP,0.54,Check condition to confirm/reject Unexpected workload data growth,SRC_KB
+REL_0044,RootCause,CAUSE_DATA_GROWTH,REQUIRES_CHECK,Condition,COND_EXPANSION,0.49,Check condition to confirm/reject Unexpected workload data growth,SRC_KB
+REL_0045,RootCause,CAUSE_DATA_GROWTH,GUIDED_BY,Runbook,KB_FA_002,0.85,Approved runbook for Unexpected workload data growth,SRC_KB
+REL_0046,Issue,ISSUE_CAPACITY,INDICATES,RootCause,CAUSE_THIN_RISK,0.67,Capacity symptom may indicate Thin provisioning risk,SRC_CASE_HIST
+REL_0047,RootCause,CAUSE_THIN_RISK,REQUIRES_CHECK,Condition,COND_GROWTH,0.38,Check condition to confirm/reject Thin provisioning risk,SRC_KB
+REL_0048,RootCause,CAUSE_THIN_RISK,REQUIRES_CHECK,Condition,COND_SNAP,0.64,Check condition to confirm/reject Thin provisioning risk,SRC_KB
+REL_0049,RootCause,CAUSE_THIN_RISK,REQUIRES_CHECK,Condition,COND_EXPANSION,0.45,Check condition to confirm/reject Thin provisioning risk,SRC_KB
+REL_0050,RootCause,CAUSE_THIN_RISK,GUIDED_BY,Runbook,KB_FA_002,0.85,Approved runbook for Thin provisioning risk,SRC_KB
+REL_0051,Issue,ISSUE_CAPACITY,HAS_KNOWN_ISSUE_SIGNAL,KnownIssue,KI_FA_CAP_SNAP,0.72,Known issue database contains matching pattern for Capacity,SRC_MON
+REL_0052,Issue,ISSUE_GATEWAY_HYBRID_CLOUD,INDICATES,RootCause,CAUSE_GW_CACHE,0.76,Gateway / Hybrid Cloud symptom may indicate Gateway cache undersized,SRC_CASE_HIST
+REL_0053,RootCause,CAUSE_GW_CACHE,REQUIRES_CHECK,Condition,COND_SCOPE,0.68,Check condition to confirm/reject Gateway cache undersized,SRC_KB
+REL_0054,RootCause,CAUSE_GW_CACHE,REQUIRES_CHECK,Condition,COND_PEAK,0.57,Check condition to confirm/reject Gateway cache undersized,SRC_KB
+REL_0055,RootCause,CAUSE_GW_CACHE,REQUIRES_CHECK,Condition,COND_CLOUD,0.54,Check condition to confirm/reject Gateway cache undersized,SRC_KB
+REL_0056,RootCause,CAUSE_GW_CACHE,GUIDED_BY,Runbook,KB_GW_001,0.85,Approved runbook for Gateway cache undersized,SRC_KB
+REL_0057,Issue,ISSUE_GATEWAY_HYBRID_CLOUD,INDICATES,RootCause,CAUSE_CLOUD_LATENCY,0.64,Gateway / Hybrid Cloud symptom may indicate Cloud endpoint latency,SRC_CASE_HIST
+REL_0058,RootCause,CAUSE_CLOUD_LATENCY,REQUIRES_CHECK,Condition,COND_SCOPE,0.43,Check condition to confirm/reject Cloud endpoint latency,SRC_KB
+REL_0059,RootCause,CAUSE_CLOUD_LATENCY,REQUIRES_CHECK,Condition,COND_PEAK,0.65,Check condition to confirm/reject Cloud endpoint latency,SRC_KB
+REL_0060,RootCause,CAUSE_CLOUD_LATENCY,REQUIRES_CHECK,Condition,COND_CLOUD,0.57,Check condition to confirm/reject Cloud endpoint latency,SRC_KB
+REL_0061,RootCause,CAUSE_CLOUD_LATENCY,GUIDED_BY,Runbook,KB_GW_001,0.85,Approved runbook for Cloud endpoint latency,SRC_KB
+REL_0062,Issue,ISSUE_GATEWAY_HYBRID_CLOUD,INDICATES,RootCause,CAUSE_AUTH_PROXY,0.49,Gateway / Hybrid Cloud symptom may indicate Proxy or authentication issue,SRC_CASE_HIST
+REL_0063,RootCause,CAUSE_AUTH_PROXY,REQUIRES_CHECK,Condition,COND_SCOPE,0.59,Check condition to confirm/reject Proxy or authentication issue,SRC_KB
+REL_0064,RootCause,CAUSE_AUTH_PROXY,REQUIRES_CHECK,Condition,COND_PEAK,0.42,Check condition to confirm/reject Proxy or authentication issue,SRC_KB
+REL_0065,RootCause,CAUSE_AUTH_PROXY,REQUIRES_CHECK,Condition,COND_CLOUD,0.65,Check condition to confirm/reject Proxy or authentication issue,SRC_KB
+REL_0066,RootCause,CAUSE_AUTH_PROXY,GUIDED_BY,Runbook,KB_GW_001,0.85,Approved runbook for Proxy or authentication issue,SRC_KB
+REL_0067,Issue,ISSUE_GATEWAY_HYBRID_CLOUD,HAS_KNOWN_ISSUE_SIGNAL,KnownIssue,KI_GW_CACHE,0.72,Known issue database contains matching pattern for Gateway / Hybrid Cloud,SRC_MON
+REL_0068,Issue,ISSUE_UPGRADE,INDICATES,RootCause,CAUSE_EDGE_DISABLED,0.47,Upgrade symptom may indicate Edge management not enabled,SRC_CASE_HIST
+REL_0069,RootCause,CAUSE_EDGE_DISABLED,REQUIRES_CHECK,Condition,COND_PHONE_HOME,0.44,Check condition to confirm/reject Edge management not enabled,SRC_KB
+REL_0070,RootCause,CAUSE_EDGE_DISABLED,REQUIRES_CHECK,Condition,COND_EDGE,0.51,Check condition to confirm/reject Edge management not enabled,SRC_KB
+REL_0071,RootCause,CAUSE_EDGE_DISABLED,REQUIRES_CHECK,Condition,COND_FAILED_STEP,0.68,Check condition to confirm/reject Edge management not enabled,SRC_KB
+REL_0072,RootCause,CAUSE_EDGE_DISABLED,GUIDED_BY,Runbook,KB_UPG_001,0.85,Approved runbook for Edge management not enabled,SRC_KB
+REL_0073,Issue,ISSUE_UPGRADE,INDICATES,RootCause,CAUSE_AGENT_OLD,0.74,Upgrade symptom may indicate Upgrade agent outdated,SRC_CASE_HIST
+REL_0074,RootCause,CAUSE_AGENT_OLD,REQUIRES_CHECK,Condition,COND_PHONE_HOME,0.51,Check condition to confirm/reject Upgrade agent outdated,SRC_KB
+REL_0075,RootCause,CAUSE_AGENT_OLD,REQUIRES_CHECK,Condition,COND_EDGE,0.38,Check condition to confirm/reject Upgrade agent outdated,SRC_KB
+REL_0076,RootCause,CAUSE_AGENT_OLD,REQUIRES_CHECK,Condition,COND_FAILED_STEP,0.35,Check condition to confirm/reject Upgrade agent outdated,SRC_KB
+REL_0077,RootCause,CAUSE_AGENT_OLD,GUIDED_BY,Runbook,KB_UPG_001,0.85,Approved runbook for Upgrade agent outdated,SRC_KB
+REL_0078,Issue,ISSUE_UPGRADE,INDICATES,RootCause,CAUSE_HEALTH_FAIL,0.69,Upgrade symptom may indicate Pre-upgrade health check failed,SRC_CASE_HIST
+REL_0079,RootCause,CAUSE_HEALTH_FAIL,REQUIRES_CHECK,Condition,COND_PHONE_HOME,0.66,Check condition to confirm/reject Pre-upgrade health check failed,SRC_KB
+REL_0080,RootCause,CAUSE_HEALTH_FAIL,REQUIRES_CHECK,Condition,COND_EDGE,0.68,Check condition to confirm/reject Pre-upgrade health check failed,SRC_KB
+REL_0081,RootCause,CAUSE_HEALTH_FAIL,REQUIRES_CHECK,Condition,COND_FAILED_STEP,0.53,Check condition to confirm/reject Pre-upgrade health check failed,SRC_KB
+REL_0082,RootCause,CAUSE_HEALTH_FAIL,GUIDED_BY,Runbook,KB_UPG_001,0.85,Approved runbook for Pre-upgrade health check failed,SRC_KB
+REL_0083,Issue,ISSUE_UPGRADE,HAS_KNOWN_ISSUE_SIGNAL,KnownIssue,KI_UPG_EDGE,0.72,Known issue database contains matching pattern for Upgrade,SRC_MON
+REL_0084,Issue,ISSUE_SECURITY_RESILIENCE,INDICATES,RootCause,CAUSE_UNUSUAL_ACTIVITY,0.5,Security / Resilience symptom may indicate Unusual delete or change pattern,SRC_CASE_HIST
+REL_0085,RootCause,CAUSE_UNUSUAL_ACTIVITY,REQUIRES_CHECK,Condition,COND_MAINT,0.39,Check condition to confirm/reject Unusual delete or change pattern,SRC_KB
+REL_0086,RootCause,CAUSE_UNUSUAL_ACTIVITY,REQUIRES_CHECK,Condition,COND_SCOPE,0.67,Check condition to confirm/reject Unusual delete or change pattern,SRC_KB
+REL_0087,RootCause,CAUSE_UNUSUAL_ACTIVITY,REQUIRES_CHECK,Condition,COND_SAFEMODE,0.64,Check condition to confirm/reject Unusual delete or change pattern,SRC_KB
+REL_0088,RootCause,CAUSE_UNUSUAL_ACTIVITY,GUIDED_BY,Runbook,KB_SEC_001,0.85,Approved runbook for Unusual delete or change pattern,SRC_KB
+REL_0089,Issue,ISSUE_SECURITY_RESILIENCE,INDICATES,RootCause,CAUSE_POLICY_GAP,0.45,Security / Resilience symptom may indicate Snapshot policy gap,SRC_CASE_HIST
+REL_0090,RootCause,CAUSE_POLICY_GAP,REQUIRES_CHECK,Condition,COND_MAINT,0.39,Check condition to confirm/reject Snapshot policy gap,SRC_KB
+REL_0091,RootCause,CAUSE_POLICY_GAP,REQUIRES_CHECK,Condition,COND_SCOPE,0.59,Check condition to confirm/reject Snapshot policy gap,SRC_KB
+REL_0092,RootCause,CAUSE_POLICY_GAP,REQUIRES_CHECK,Condition,COND_SAFEMODE,0.58,Check condition to confirm/reject Snapshot policy gap,SRC_KB
+REL_0093,RootCause,CAUSE_POLICY_GAP,GUIDED_BY,Runbook,KB_SEC_001,0.85,Approved runbook for Snapshot policy gap,SRC_KB
+REL_0094,Issue,ISSUE_SECURITY_RESILIENCE,INDICATES,RootCause,CAUSE_FALSE_POSITIVE,0.65,Security / Resilience symptom may indicate Expected maintenance activity,SRC_CASE_HIST
+REL_0095,RootCause,CAUSE_FALSE_POSITIVE,REQUIRES_CHECK,Condition,COND_MAINT,0.62,Check condition to confirm/reject Expected maintenance activity,SRC_KB
+REL_0096,RootCause,CAUSE_FALSE_POSITIVE,REQUIRES_CHECK,Condition,COND_SCOPE,0.64,Check condition to confirm/reject Expected maintenance activity,SRC_KB
+REL_0097,RootCause,CAUSE_FALSE_POSITIVE,REQUIRES_CHECK,Condition,COND_SAFEMODE,0.36,Check condition to confirm/reject Expected maintenance activity,SRC_KB
+REL_0098,RootCause,CAUSE_FALSE_POSITIVE,GUIDED_BY,Runbook,KB_SEC_001,0.85,Approved runbook for Expected maintenance activity,SRC_KB
+REL_0099,Issue,ISSUE_SECURITY_RESILIENCE,HAS_KNOWN_ISSUE_SIGNAL,KnownIssue,KI_SAFE_UNUSUAL,0.72,Known issue database contains matching pattern for Security / Resilience,SRC_MON

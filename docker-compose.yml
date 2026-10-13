@@ -1,0 +1,104 @@
+# One command:  docker compose up --build
+# Prereqs: Docker, Ollama running on the host (ollama pull llama3.2 && ollama pull nomic-embed-text),
+#          backend/.env and servicenow-mcp/.env filled in (copy the .env.example files),
+#          and a ServiceNow PDI seeded once (docker compose run --rm seed-pdi).
+
+x-host-gateway: &host-gateway
+  extra_hosts:
+    - "host.docker.internal:host-gateway"
+
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: servicenowai-neo4j
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-servicenowai-neo4j}
+      NEO4J_server_memory_heap_max__size: 1G
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - neo4j_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    restart: unless-stopped
+
+  mcp:
+    build: ./servicenow-mcp
+    container_name: servicenowai-mcp
+    env_file:
+      - ./servicenow-mcp/.env
+    ports:
+      - "8091:8091"
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+    container_name: servicenowai-backend
+    <<: *host-gateway
+    env_file:
+      - ./backend/.env
+    environment:
+      MCP_HTTP_URL: http://mcp:8091
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_URI_A: bolt://neo4j:7687
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-servicenowai-neo4j}
+      NEO4J_PASSWORD_A: ${NEO4J_PASSWORD:-servicenowai-neo4j}
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+      CORS_ORIGINS: http://localhost:5200,http://127.0.0.1:5200
+    depends_on:
+      neo4j:
+        condition: service_healthy
+      mcp:
+        condition: service_healthy
+    ports:
+      - "8099:8099"
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: servicenowai-frontend
+    depends_on:
+      - backend
+    ports:
+      - "5200:5200"
+    restart: unless-stopped
+
+  # ---- One-off jobs (profile "tools") ----------------------------------------------
+  #   docker compose run --rm init       -> load csv_ingest into Neo4j (GraphRAG data)
+  #   docker compose run --rm seed-pdi   -> create tables / data / catalog items in your ServiceNow PDI
+  init:
+    build:
+      context: ./backend
+    profiles: ["tools"]
+    env_file:
+      - ./backend/.env
+    environment:
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-servicenowai-neo4j}
+    volumes:
+      - ./csv_ingest:/data/csv_ingest:ro
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    command: ["python", "csv_graph_ingest/ingest_appliance_support_graph.py", "--csv-dir", "/data/csv_ingest"]
+
+  seed-pdi:
+    build:
+      context: ./backend
+    profiles: ["tools"]
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./csv_ingest:/seed/csv_ingest:ro
+      - ./scripts:/seed/scripts:ro
+      - ./backend/.env:/seed/backend/.env:ro
+    command: ["python", "/seed/scripts/seed_pdi.py"]
+
+volumes:
+  neo4j_data:

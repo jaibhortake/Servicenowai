@@ -1,0 +1,9 @@
+u_external_id,u_customer_name,u_industry,u_support_tier,u_primary_site,u_region,u_support_coverage,u_customer_criticality,u_entitlement_source
+CUST_GFS,Global FinServ Inc.,Financial Services,Premium,Mumbai DC,Asia Pacific,24x7,High,SRC_ENT
+CUST_MED,MedCore Health Systems,Healthcare,Mission Critical,Bengaluru DC,Asia Pacific,24x7,High,SRC_ENT
+CUST_RET,NorthStar Retail Group,Retail,Standard Plus,Pune DC,Asia Pacific,16x6,Medium,SRC_ENT
+CUST_MFG,Orion Manufacturing,Manufacturing,Premium,Chennai Plant DC,Asia Pacific,24x5,High,SRC_ENT
+CUST_EDU,Apex University Cloud,Education,Standard,Hyderabad Campus DC,Asia Pacific,12x5,Medium,SRC_ENT
+CUST_TEL,MetroTel Communications,Telecom,Mission Critical,Delhi NCR DC,Asia Pacific,24x7,High,SRC_ENT
+CUST_LOG,BlueRoute Logistics,Logistics,Standard Plus,Nagpur DR Site,Asia Pacific,16x6,Medium,SRC_ENT
+CUST_INS,SecureLife Insurance,Insurance,Premium,Mumbai DR,Asia Pacific,24x7,High,SRC_ENT

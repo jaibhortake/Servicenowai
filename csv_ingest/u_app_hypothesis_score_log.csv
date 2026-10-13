@@ -1,0 +1,2 @@
+u_external_id,u_session_id,u_incident_external_id,u_score_event,u_cause_id,u_cause_name,u_score,u_evidence_summary,u_scored_at
+SCORE_SAMPLE_001,APP_DIAG_0001,APP_INC_0001,Sample final confidence score,CAUSE_GW_CACHE,Gateway cache undersized,0.35,Sample only: shows how confidence can be recorded behind a recommendation. Full scoring history is not loaded for past incidents to keep the ServiceNow demo lean.,2026-05-18 12:00:00

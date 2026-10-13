@@ -1,0 +1,24 @@
+import_order,sheet_or_csv,servicenow_table,notes
+1,cleanup_plan_old_demo_tables,N/A,Review and clean prior filtration demo artifacts before import
+2,u_app_source_system,u_app_source_system,Load source system catalog
+3,u_app_customer_context,u_app_customer_context,Load anonymized customer/account context
+4,u_app_product_model,u_app_product_model,Load appliance product model data
+5,u_app_asset,u_app_asset,Load supported asset records
+6,u_app_ci_context,u_app_ci_context,Load appliance CMDB/CI records
+7,u_app_kb_runbook,u_app_kb_runbook,Load approved troubleshooting/runbook references
+8,u_app_known_issue,u_app_known_issue,Load known issue patterns
+9,u_app_graph_relationship,u_app_graph_relationship,Load issue-cause-condition-runbook graph relationships
+10,incident,incident,Load exactly 50 incident records
+11,u_app_diagnostic_session,u_app_diagnostic_session,Load one diagnostic session per incident
+12,u_app_monitoring_signal,u_app_monitoring_signal,Load monitoring and health evidence
+13,u_app_vmware_context,u_app_vmware_context,Load VMware/collector context for VM Analytics cases
+14,u_app_gateway_context,u_app_gateway_context,Load gateway telemetry context for gateway cases
+15,u_app_upgrade_context,u_app_upgrade_context,Load upgrade workflow context for upgrade cases
+16,u_app_llm_question_log,u_app_llm_question_log,Load customer-facing disambiguation questions and answers
+17,u_app_case_evidence,u_app_case_evidence,Load structured evidence records
+18,u_app_hypothesis_score_log,u_app_hypothesis_score_log,Load confidence score progression
+19,u_app_case_recommendation,u_app_case_recommendation,Load recommendations/runbook/escalation outputs
+20,u_app_case_audit_event,u_app_case_audit_event,Load governed audit trail
+21,u_app_escalation_packet,u_app_escalation_packet,Load specialist escalation packets
+22,u_app_historical_case_match,u_app_historical_case_match,Load similar past case references
+23,problem,problem,Load recurring pattern problem records

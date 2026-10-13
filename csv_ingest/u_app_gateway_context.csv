@@ -1,0 +1,10 @@
+u_external_id,u_incident_external_id,u_appliance_ci_id,u_gateway_health,u_cloud_endpoint_status,u_cache_utilization_pct,u_network_latency_ms,u_auth_proxy_status,u_peak_hour_degradation,u_source_system
+GW_0001,APP_INC_0001,CI_0022,Warning,Reachable,86,48.6,Proxy Error,Yes,SRC_MON + SRC_NET
+GW_0007,APP_INC_0007,CI_0044,Degraded,Intermittent,82,129.4,OK,No,SRC_MON + SRC_NET
+GW_0016,APP_INC_0016,CI_0028,Warning,Reachable,75,93.3,OK,Yes,SRC_MON + SRC_NET
+GW_0018,APP_INC_0018,CI_0004,Healthy,Reachable,80,173.1,Proxy Error,Yes,SRC_MON + SRC_NET
+GW_0021,APP_INC_0021,CI_0038,Degraded,Intermittent,92,85.7,OK,Yes,SRC_MON + SRC_NET
+GW_0031,APP_INC_0031,CI_0038,Warning,Intermittent,96,106.7,OK,No,SRC_MON + SRC_NET
+GW_0040,APP_INC_0040,CI_0028,Warning,Reachable,88,95.8,Proxy Error,Yes,SRC_MON + SRC_NET
+GW_0044,APP_INC_0044,CI_0033,Warning,Intermittent,82,99.9,Proxy Error,Yes,SRC_MON + SRC_NET
+GW_0045,APP_INC_0045,CI_0038,Degraded,Reachable,78,146.0,OK,Yes,SRC_MON + SRC_NET

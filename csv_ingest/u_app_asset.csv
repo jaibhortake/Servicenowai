@@ -1,0 +1,47 @@
+u_external_id,u_asset_tag,u_serial_number,u_customer_id,u_customer_name,u_product_model_id,u_model_name,u_contract_level,u_install_location,u_install_date,u_warranty_status,u_lifecycle_status
+AST_0001,AST-000001,FA-GFS-00001,CUST_GFS,Global FinServ Inc.,MODEL_FA_X90,FlashArray//X90,Premium,Mumbai DC,2023-05-16,Expiring in 90 days,In Production
+AST_0002,AST-000002,FB-GFS-00002,CUST_GFS,Global FinServ Inc.,MODEL_FB_S500,FlashBlade//S500,Premium,Mumbai DC,2023-01-09,Active,In Production
+AST_0003,AST-000003,OVA-GFS-00003,CUST_GFS,Global FinServ Inc.,MODEL_VM_COLLECTOR,VM Analytics Collector OVA,Premium,Mumbai DC,2023-06-10,Active,In Production
+AST_0004,AST-000004,GW-GFS-00004,CUST_GFS,Global FinServ Inc.,MODEL_CLOUD_GATEWAY,Storage Gateway Appliance,Premium,Mumbai DC,2023-09-01,Expiring in 90 days,In Production
+AST_0005,AST-000005,AGENT-GFS-00005,CUST_GFS,Global FinServ Inc.,MODEL_UPGRADE_AGENT,Upgrade Edge Agent,Premium,Mumbai DC,2023-11-16,Active,Upgrade Due
+AST_0006,AST-000006,FA-GFS-00006,CUST_GFS,Global FinServ Inc.,MODEL_FA_C60,FlashArray//C60,Premium,Mumbai DC,2023-08-02,Active,In Production
+AST_0007,AST-000007,FA-MED-00007,CUST_MED,MedCore Health Systems,MODEL_FA_X90,FlashArray//X90,Mission Critical,Bengaluru DC,2023-02-17,Expiring in 90 days,In Production
+AST_0008,AST-000008,FB-MED-00008,CUST_MED,MedCore Health Systems,MODEL_FB_S500,FlashBlade//S500,Mission Critical,Bengaluru DC,2023-03-07,Active,In Production
+AST_0009,AST-000009,OVA-MED-00009,CUST_MED,MedCore Health Systems,MODEL_VM_COLLECTOR,VM Analytics Collector OVA,Mission Critical,Bengaluru DC,2023-08-24,Active,In Production
+AST_0010,AST-000010,GW-MED-00010,CUST_MED,MedCore Health Systems,MODEL_CLOUD_GATEWAY,Storage Gateway Appliance,Mission Critical,Bengaluru DC,2023-08-04,Active,In Production
+AST_0011,AST-000011,AGENT-MED-00011,CUST_MED,MedCore Health Systems,MODEL_UPGRADE_AGENT,Upgrade Edge Agent,Mission Critical,Bengaluru DC,2023-01-14,Active,In Production
+AST_0012,AST-000012,FA-MED-00012,CUST_MED,MedCore Health Systems,MODEL_FA_C60,FlashArray//C60,Mission Critical,Bengaluru DC,2023-06-20,Active,In Production
+AST_0013,AST-000013,FA-RET-00013,CUST_RET,NorthStar Retail Group,MODEL_FA_X90,FlashArray//X90,Standard Plus,Pune DC,2023-01-05,Expiring in 90 days,In Production
+AST_0014,AST-000014,FB-RET-00014,CUST_RET,NorthStar Retail Group,MODEL_FB_S500,FlashBlade//S500,Standard Plus,Pune DC,2023-04-12,Expiring in 90 days,In Production
+AST_0015,AST-000015,OVA-RET-00015,CUST_RET,NorthStar Retail Group,MODEL_VM_COLLECTOR,VM Analytics Collector OVA,Standard Plus,Pune DC,2023-07-04,Active,In Production
+AST_0016,AST-000016,GW-RET-00016,CUST_RET,NorthStar Retail Group,MODEL_CLOUD_GATEWAY,Storage Gateway Appliance,Standard Plus,Pune DC,2023-04-21,Active,In Production
+AST_0017,AST-000017,AGENT-RET-00017,CUST_RET,NorthStar Retail Group,MODEL_UPGRADE_AGENT,Upgrade Edge Agent,Standard Plus,Pune DC,2023-06-22,Active,In Production
+AST_0018,AST-000018,FA-RET-00018,CUST_RET,NorthStar Retail Group,MODEL_FA_C60,FlashArray//C60,Standard Plus,Pune DC,2023-09-02,Expiring in 90 days,Upgrade Due
+AST_0019,AST-000019,FA-MFG-00019,CUST_MFG,Orion Manufacturing,MODEL_FA_X90,FlashArray//X90,Premium,Chennai Plant DC,2023-10-22,Active,In Production
+AST_0020,AST-000020,FB-MFG-00020,CUST_MFG,Orion Manufacturing,MODEL_FB_S500,FlashBlade//S500,Premium,Chennai Plant DC,2023-10-06,Active,In Production
+AST_0021,AST-000021,OVA-MFG-00021,CUST_MFG,Orion Manufacturing,MODEL_VM_COLLECTOR,VM Analytics Collector OVA,Premium,Chennai Plant DC,2023-05-08,Active,In Production
+AST_0022,AST-000022,GW-MFG-00022,CUST_MFG,Orion Manufacturing,MODEL_CLOUD_GATEWAY,Storage Gateway Appliance,Premium,Chennai Plant DC,2023-07-16,Active,Upgrade Due
+AST_0023,AST-000023,AGENT-MFG-00023,CUST_MFG,Orion Manufacturing,MODEL_UPGRADE_AGENT,Upgrade Edge Agent,Premium,Chennai Plant DC,2023-02-11,Expiring in 90 days,In Production
+AST_0024,AST-000024,FA-MFG-00024,CUST_MFG,Orion Manufacturing,MODEL_FA_C60,FlashArray//C60,Premium,Chennai Plant DC,2023-03-07,Active,In Production
+AST_0025,AST-000025,FA-EDU-00025,CUST_EDU,Apex University Cloud,MODEL_FA_X90,FlashArray//X90,Standard,Hyderabad Campus DC,2023-04-09,Active,In Production
+AST_0026,AST-000026,FB-EDU-00026,CUST_EDU,Apex University Cloud,MODEL_FB_S500,FlashBlade//S500,Standard,Hyderabad Campus DC,2023-10-04,Active,In Production
+AST_0027,AST-000027,OVA-EDU-00027,CUST_EDU,Apex University Cloud,MODEL_VM_COLLECTOR,VM Analytics Collector OVA,Standard,Hyderabad Campus DC,2023-10-02,Active,In Production
+AST_0028,AST-000028,GW-EDU-00028,CUST_EDU,Apex University Cloud,MODEL_CLOUD_GATEWAY,Storage Gateway Appliance,Standard,Hyderabad Campus DC,2023-07-24,Expiring in 90 days,In Production
+AST_0029,AST-000029,AGENT-EDU-00029,CUST_EDU,Apex University Cloud,MODEL_UPGRADE_AGENT,Upgrade Edge Agent,Standard,Hyderabad Campus DC,2023-06-08,Active,In Production
+AST_0030,AST-000030,FA-TEL-00030,CUST_TEL,MetroTel Communications,MODEL_FA_X90,FlashArray//X90,Mission Critical,Delhi NCR DC,2023-09-24,Active,In Production
+AST_0031,AST-000031,FB-TEL-00031,CUST_TEL,MetroTel Communications,MODEL_FB_S500,FlashBlade//S500,Mission Critical,Delhi NCR DC,2023-04-20,Expiring in 90 days,In Production
+AST_0032,AST-000032,OVA-TEL-00032,CUST_TEL,MetroTel Communications,MODEL_VM_COLLECTOR,VM Analytics Collector OVA,Mission Critical,Delhi NCR DC,2023-04-17,Expiring in 90 days,In Production
+AST_0033,AST-000033,GW-TEL-00033,CUST_TEL,MetroTel Communications,MODEL_CLOUD_GATEWAY,Storage Gateway Appliance,Mission Critical,Delhi NCR DC,2023-10-02,Active,In Production
+AST_0034,AST-000034,AGENT-TEL-00034,CUST_TEL,MetroTel Communications,MODEL_UPGRADE_AGENT,Upgrade Edge Agent,Mission Critical,Delhi NCR DC,2023-04-14,Active,Upgrade Due
+AST_0035,AST-000035,FA-LOG-00035,CUST_LOG,BlueRoute Logistics,MODEL_FA_X90,FlashArray//X90,Standard Plus,Nagpur DR Site,2023-02-21,Active,Upgrade Due
+AST_0036,AST-000036,FB-LOG-00036,CUST_LOG,BlueRoute Logistics,MODEL_FB_S500,FlashBlade//S500,Standard Plus,Nagpur DR Site,2023-08-20,Active,In Production
+AST_0037,AST-000037,OVA-LOG-00037,CUST_LOG,BlueRoute Logistics,MODEL_VM_COLLECTOR,VM Analytics Collector OVA,Standard Plus,Nagpur DR Site,2023-12-24,Expiring in 90 days,In Production
+AST_0038,AST-000038,GW-LOG-00038,CUST_LOG,BlueRoute Logistics,MODEL_CLOUD_GATEWAY,Storage Gateway Appliance,Standard Plus,Nagpur DR Site,2023-06-19,Active,Upgrade Due
+AST_0039,AST-000039,AGENT-LOG-00039,CUST_LOG,BlueRoute Logistics,MODEL_UPGRADE_AGENT,Upgrade Edge Agent,Standard Plus,Nagpur DR Site,2023-08-24,Active,In Production
+AST_0040,AST-000040,FA-LOG-00040,CUST_LOG,BlueRoute Logistics,MODEL_FA_C60,FlashArray//C60,Standard Plus,Nagpur DR Site,2023-12-01,Active,In Production
+AST_0041,AST-000041,FA-INS-00041,CUST_INS,SecureLife Insurance,MODEL_FA_X90,FlashArray//X90,Premium,Mumbai DR,2023-03-16,Active,In Production
+AST_0042,AST-000042,FB-INS-00042,CUST_INS,SecureLife Insurance,MODEL_FB_S500,FlashBlade//S500,Premium,Mumbai DR,2023-10-21,Active,In Production
+AST_0043,AST-000043,OVA-INS-00043,CUST_INS,SecureLife Insurance,MODEL_VM_COLLECTOR,VM Analytics Collector OVA,Premium,Mumbai DR,2023-01-11,Expiring in 90 days,In Production
+AST_0044,AST-000044,GW-INS-00044,CUST_INS,SecureLife Insurance,MODEL_CLOUD_GATEWAY,Storage Gateway Appliance,Premium,Mumbai DR,2023-08-20,Active,In Production
+AST_0045,AST-000045,AGENT-INS-00045,CUST_INS,SecureLife Insurance,MODEL_UPGRADE_AGENT,Upgrade Edge Agent,Premium,Mumbai DR,2023-03-13,Expiring in 90 days,In Production
+AST_0046,AST-000046,FA-INS-00046,CUST_INS,SecureLife Insurance,MODEL_FA_C60,FlashArray//C60,Premium,Mumbai DR,2023-03-25,Active,Upgrade Due

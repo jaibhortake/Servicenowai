@@ -1,0 +1,8 @@
+section,detail
+Purpose,Fresh appliance-aware enterprise support automation dataset replacing the old filtration demo context.
+Incident count,50 realistic appliance support incidents.
+Core story,ServiceNow is the system of record; graph is the system of context; LLM guides customer-facing disambiguation and support diagnosis.
+External systems represented,"CMDB, monitoring/fleet health, VMware/vCenter, network checks, KB/runbooks, entitlement, upgrade orchestration, historical case patterns."
+Cleanup requirement,Use cleanup_plan_old_demo_tables to remove prior filtration demo artifacts before importing this workbook.
+Recommended namespace,Use u_app_* custom tables to avoid collision with earlier u_product/u_root_cause/u_observation style tables.
+Hypothesis score log design,Only one sample score log record is included. Past incidents do not need full scoring history for the demo; this keeps ServiceNow import lighter.

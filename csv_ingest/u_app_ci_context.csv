@@ -1,0 +1,47 @@
+u_external_id,u_ci_name,u_asset_external_id,u_serial_number,u_customer_id,u_product_model_id,u_ci_class,u_environment,u_version,u_site,u_monitoring_enabled,u_operational_status,u_cmdb_source
+CI_0001,FlashArray//X90 - Mumbai DC,AST_0001,FA-GFS-00001,CUST_GFS,MODEL_FA_X90,Block Storage Appliance,Production,6.4.7,Mumbai DC,Yes,Degraded,SRC_CMDB
+CI_0002,FlashBlade//S500 - Mumbai DC,AST_0002,FB-GFS-00002,CUST_GFS,MODEL_FB_S500,File/Object Storage Appliance,Production,4.3.7,Mumbai DC,Partial,Healthy,SRC_CMDB
+CI_0003,VM Analytics Collector OVA - Mumbai DC,AST_0003,OVA-GFS-00003,CUST_GFS,MODEL_VM_COLLECTOR,Virtual Appliance,Production,4.1.6,Mumbai DC,Yes,Healthy,SRC_CMDB
+CI_0004,Storage Gateway Appliance - Mumbai DC,AST_0004,GW-GFS-00004,CUST_GFS,MODEL_CLOUD_GATEWAY,Gateway Appliance,Pre-Production,3.8.7,Mumbai DC,Yes,Healthy,SRC_CMDB
+CI_0005,Upgrade Edge Agent - Mumbai DC,AST_0005,AGENT-GFS-00005,CUST_GFS,MODEL_UPGRADE_AGENT,Management Agent,Pre-Production,2.7.4,Mumbai DC,Yes,Healthy,SRC_CMDB
+CI_0006,FlashArray//C60 - Mumbai DC,AST_0006,FA-GFS-00006,CUST_GFS,MODEL_FA_C60,Capacity Flash Appliance,Disaster Recovery,6.3.1,Mumbai DC,Partial,Healthy,SRC_CMDB
+CI_0007,FlashArray//X90 - Bengaluru DC,AST_0007,FA-MED-00007,CUST_MED,MODEL_FA_X90,Block Storage Appliance,Pre-Production,6.4.3,Bengaluru DC,Yes,Healthy,SRC_CMDB
+CI_0008,FlashBlade//S500 - Bengaluru DC,AST_0008,FB-MED-00008,CUST_MED,MODEL_FB_S500,File/Object Storage Appliance,Pre-Production,4.3.3,Bengaluru DC,Yes,Degraded,SRC_CMDB
+CI_0009,VM Analytics Collector OVA - Bengaluru DC,AST_0009,OVA-MED-00009,CUST_MED,MODEL_VM_COLLECTOR,Virtual Appliance,Production,4.1.7,Bengaluru DC,Yes,Healthy,SRC_CMDB
+CI_0010,Storage Gateway Appliance - Bengaluru DC,AST_0010,GW-MED-00010,CUST_MED,MODEL_CLOUD_GATEWAY,Gateway Appliance,Disaster Recovery,3.8.1,Bengaluru DC,Yes,Warning,SRC_CMDB
+CI_0011,Upgrade Edge Agent - Bengaluru DC,AST_0011,AGENT-MED-00011,CUST_MED,MODEL_UPGRADE_AGENT,Management Agent,Production,2.7.6,Bengaluru DC,Yes,Degraded,SRC_CMDB
+CI_0012,FlashArray//C60 - Bengaluru DC,AST_0012,FA-MED-00012,CUST_MED,MODEL_FA_C60,Capacity Flash Appliance,Production,6.3.4,Bengaluru DC,Yes,Warning,SRC_CMDB
+CI_0013,FlashArray//X90 - Pune DC,AST_0013,FA-RET-00013,CUST_RET,MODEL_FA_X90,Block Storage Appliance,Production,6.4.5,Pune DC,Yes,Degraded,SRC_CMDB
+CI_0014,FlashBlade//S500 - Pune DC,AST_0014,FB-RET-00014,CUST_RET,MODEL_FB_S500,File/Object Storage Appliance,Disaster Recovery,4.3.2,Pune DC,Partial,Warning,SRC_CMDB
+CI_0015,VM Analytics Collector OVA - Pune DC,AST_0015,OVA-RET-00015,CUST_RET,MODEL_VM_COLLECTOR,Virtual Appliance,Pre-Production,4.1.3,Pune DC,Yes,Degraded,SRC_CMDB
+CI_0016,Storage Gateway Appliance - Pune DC,AST_0016,GW-RET-00016,CUST_RET,MODEL_CLOUD_GATEWAY,Gateway Appliance,Production,3.8.0,Pune DC,Partial,Warning,SRC_CMDB
+CI_0017,Upgrade Edge Agent - Pune DC,AST_0017,AGENT-RET-00017,CUST_RET,MODEL_UPGRADE_AGENT,Management Agent,Disaster Recovery,2.7.3,Pune DC,Yes,Warning,SRC_CMDB
+CI_0018,FlashArray//C60 - Pune DC,AST_0018,FA-RET-00018,CUST_RET,MODEL_FA_C60,Capacity Flash Appliance,Production,6.3.5,Pune DC,Yes,Healthy,SRC_CMDB
+CI_0019,FlashArray//X90 - Chennai Plant DC,AST_0019,FA-MFG-00019,CUST_MFG,MODEL_FA_X90,Block Storage Appliance,Disaster Recovery,6.4.4,Chennai Plant DC,Yes,Warning,SRC_CMDB
+CI_0020,FlashBlade//S500 - Chennai Plant DC,AST_0020,FB-MFG-00020,CUST_MFG,MODEL_FB_S500,File/Object Storage Appliance,Pre-Production,4.3.7,Chennai Plant DC,Yes,Warning,SRC_CMDB
+CI_0021,VM Analytics Collector OVA - Chennai Plant DC,AST_0021,OVA-MFG-00021,CUST_MFG,MODEL_VM_COLLECTOR,Virtual Appliance,Production,4.1.7,Chennai Plant DC,Yes,Warning,SRC_CMDB
+CI_0022,Storage Gateway Appliance - Chennai Plant DC,AST_0022,GW-MFG-00022,CUST_MFG,MODEL_CLOUD_GATEWAY,Gateway Appliance,Production,3.8.2,Chennai Plant DC,Partial,Healthy,SRC_CMDB
+CI_0023,Upgrade Edge Agent - Chennai Plant DC,AST_0023,AGENT-MFG-00023,CUST_MFG,MODEL_UPGRADE_AGENT,Management Agent,Production,2.7.2,Chennai Plant DC,Yes,Healthy,SRC_CMDB
+CI_0024,FlashArray//C60 - Chennai Plant DC,AST_0024,FA-MFG-00024,CUST_MFG,MODEL_FA_C60,Capacity Flash Appliance,Disaster Recovery,6.3.5,Chennai Plant DC,Partial,Warning,SRC_CMDB
+CI_0025,FlashArray//X90 - Hyderabad Campus DC,AST_0025,FA-EDU-00025,CUST_EDU,MODEL_FA_X90,Block Storage Appliance,Pre-Production,6.4.5,Hyderabad Campus DC,Yes,Healthy,SRC_CMDB
+CI_0026,FlashBlade//S500 - Hyderabad Campus DC,AST_0026,FB-EDU-00026,CUST_EDU,MODEL_FB_S500,File/Object Storage Appliance,Production,4.3.2,Hyderabad Campus DC,Yes,Degraded,SRC_CMDB
+CI_0027,VM Analytics Collector OVA - Hyderabad Campus DC,AST_0027,OVA-EDU-00027,CUST_EDU,MODEL_VM_COLLECTOR,Virtual Appliance,Disaster Recovery,4.1.1,Hyderabad Campus DC,Partial,Warning,SRC_CMDB
+CI_0028,Storage Gateway Appliance - Hyderabad Campus DC,AST_0028,GW-EDU-00028,CUST_EDU,MODEL_CLOUD_GATEWAY,Gateway Appliance,Production,3.8.5,Hyderabad Campus DC,Yes,Healthy,SRC_CMDB
+CI_0029,Upgrade Edge Agent - Hyderabad Campus DC,AST_0029,AGENT-EDU-00029,CUST_EDU,MODEL_UPGRADE_AGENT,Management Agent,Pre-Production,2.7.1,Hyderabad Campus DC,Yes,Healthy,SRC_CMDB
+CI_0030,FlashArray//X90 - Delhi NCR DC,AST_0030,FA-TEL-00030,CUST_TEL,MODEL_FA_X90,Block Storage Appliance,Production,6.4.1,Delhi NCR DC,Yes,Healthy,SRC_CMDB
+CI_0031,FlashBlade//S500 - Delhi NCR DC,AST_0031,FB-TEL-00031,CUST_TEL,MODEL_FB_S500,File/Object Storage Appliance,Production,4.3.6,Delhi NCR DC,Yes,Healthy,SRC_CMDB
+CI_0032,VM Analytics Collector OVA - Delhi NCR DC,AST_0032,OVA-TEL-00032,CUST_TEL,MODEL_VM_COLLECTOR,Virtual Appliance,Production,4.1.0,Delhi NCR DC,Yes,Healthy,SRC_CMDB
+CI_0033,Storage Gateway Appliance - Delhi NCR DC,AST_0033,GW-TEL-00033,CUST_TEL,MODEL_CLOUD_GATEWAY,Gateway Appliance,Production,3.8.4,Delhi NCR DC,Yes,Warning,SRC_CMDB
+CI_0034,Upgrade Edge Agent - Delhi NCR DC,AST_0034,AGENT-TEL-00034,CUST_TEL,MODEL_UPGRADE_AGENT,Management Agent,Production,2.7.6,Delhi NCR DC,Partial,Healthy,SRC_CMDB
+CI_0035,FlashArray//X90 - Nagpur DR Site,AST_0035,FA-LOG-00035,CUST_LOG,MODEL_FA_X90,Block Storage Appliance,Production,6.4.0,Nagpur DR Site,Yes,Warning,SRC_CMDB
+CI_0036,FlashBlade//S500 - Nagpur DR Site,AST_0036,FB-LOG-00036,CUST_LOG,MODEL_FB_S500,File/Object Storage Appliance,Production,4.3.1,Nagpur DR Site,Yes,Healthy,SRC_CMDB
+CI_0037,VM Analytics Collector OVA - Nagpur DR Site,AST_0037,OVA-LOG-00037,CUST_LOG,MODEL_VM_COLLECTOR,Virtual Appliance,Production,4.1.3,Nagpur DR Site,Partial,Warning,SRC_CMDB
+CI_0038,Storage Gateway Appliance - Nagpur DR Site,AST_0038,GW-LOG-00038,CUST_LOG,MODEL_CLOUD_GATEWAY,Gateway Appliance,Disaster Recovery,3.8.4,Nagpur DR Site,Yes,Healthy,SRC_CMDB
+CI_0039,Upgrade Edge Agent - Nagpur DR Site,AST_0039,AGENT-LOG-00039,CUST_LOG,MODEL_UPGRADE_AGENT,Management Agent,Pre-Production,2.7.5,Nagpur DR Site,Yes,Warning,SRC_CMDB
+CI_0040,FlashArray//C60 - Nagpur DR Site,AST_0040,FA-LOG-00040,CUST_LOG,MODEL_FA_C60,Capacity Flash Appliance,Production,6.3.0,Nagpur DR Site,Yes,Degraded,SRC_CMDB
+CI_0041,FlashArray//X90 - Mumbai DR,AST_0041,FA-INS-00041,CUST_INS,MODEL_FA_X90,Block Storage Appliance,Production,6.4.1,Mumbai DR,Yes,Degraded,SRC_CMDB
+CI_0042,FlashBlade//S500 - Mumbai DR,AST_0042,FB-INS-00042,CUST_INS,MODEL_FB_S500,File/Object Storage Appliance,Disaster Recovery,4.3.2,Mumbai DR,Partial,Degraded,SRC_CMDB
+CI_0043,VM Analytics Collector OVA - Mumbai DR,AST_0043,OVA-INS-00043,CUST_INS,MODEL_VM_COLLECTOR,Virtual Appliance,Production,4.1.5,Mumbai DR,Partial,Healthy,SRC_CMDB
+CI_0044,Storage Gateway Appliance - Mumbai DR,AST_0044,GW-INS-00044,CUST_INS,MODEL_CLOUD_GATEWAY,Gateway Appliance,Pre-Production,3.8.2,Mumbai DR,Partial,Warning,SRC_CMDB
+CI_0045,Upgrade Edge Agent - Mumbai DR,AST_0045,AGENT-INS-00045,CUST_INS,MODEL_UPGRADE_AGENT,Management Agent,Disaster Recovery,2.7.1,Mumbai DR,Yes,Healthy,SRC_CMDB
+CI_0046,FlashArray//C60 - Mumbai DR,AST_0046,FA-INS-00046,CUST_INS,MODEL_FA_C60,Capacity Flash Appliance,Production,6.3.7,Mumbai DR,Yes,Degraded,SRC_CMDB

@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased;
+  }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { @apply bg-slate-300 rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-slate-400; }
+  :focus-visible { @apply outline-none ring-2 ring-brand-500 ring-offset-1; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 bg-brand-600 text-white text-sm font-medium rounded-lg
+           shadow-sm hover:bg-brand-700 active:bg-brand-800 transition-colors duration-150 disabled:opacity-50
+           disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-4 py-2 bg-white text-slate-700 text-sm font-medium rounded-lg
+           border border-slate-200 shadow-sm hover:bg-slate-50 active:bg-slate-100 transition-colors duration-150
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 px-3 py-2 text-slate-600 text-sm font-medium rounded-lg
+           hover:bg-slate-100 transition-colors duration-150;
+  }
+  .card {
+    @apply bg-white rounded-xl border border-slate-200 shadow-card;
+  }
+  .input-field {
+    @apply w-full px-3 py-2 border border-slate-200 rounded-lg text-sm bg-white
+           placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand-500
+           focus:border-transparent transition-all duration-150;
+  }
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+  .badge-blue { @apply badge bg-brand-50 text-brand-700; }
+  .badge-green { @apply badge bg-emerald-50 text-emerald-700; }
+  .badge-yellow { @apply badge bg-amber-50 text-amber-700; }
+  .badge-red { @apply badge bg-red-50 text-red-700; }
+  .badge-gray { @apply badge bg-slate-100 text-slate-600; }
+  .skeleton {
+    @apply rounded-md bg-slate-200/80 animate-pulse;
+  }
+}
+
+/* ---- Dark mode ------------------------------------------------------------------
+   Pages are written with literal slate/white utilities, so dark mode remaps those
+   utilities once here instead of touching every component. */
+.dark body { background: #0b0f1a; color: #e5e7eb; }
+.dark .bg-white { background-color: #111827 !important; }
+.dark .bg-slate-50 { background-color: #0b0f1a !important; }
+.dark .bg-slate-100 { background-color: #1a2233 !important; }
+.dark .bg-slate-200\/80 { background-color: #243049 !important; }
+.dark .hover\:bg-slate-50:hover { background-color: #172033 !important; }
+.dark .hover\:bg-slate-100:hover { background-color: #1a2233 !important; }
+.dark .bg-slate-900 { background-color: #0b0f1a !important; }
+.dark .border-slate-100, .dark .border-slate-200, .dark .border-slate-300 { border-color: #263248 !important; }
+.dark .divide-slate-100 > :not([hidden]) ~ :not([hidden]),
+.dark .divide-slate-200 > :not([hidden]) ~ :not([hidden]) { border-color: #263248 !important; }
+.dark .text-slate-900, .dark .text-slate-800 { color: #f3f4f6 !important; }
+.dark .text-slate-700 { color: #d1d5db !important; }
+.dark .text-slate-600 { color: #aab4c3 !important; }
+.dark .text-slate-500 { color: #8e9ab0 !important; }
+.dark .bg-brand-50, .dark .bg-blue-50 { background-color: rgba(99,102,241,0.14) !important; }
+.dark .bg-brand-100, .dark .bg-blue-100 { background-color: rgba(99,102,241,0.22) !important; }
+.dark .text-brand-700, .dark .text-blue-700 { color: #a5b4fc !important; }
+.dark .bg-emerald-50, .dark .bg-emerald-100 { background-color: rgba(16,185,129,0.15) !important; }
+.dark .text-emerald-700 { color: #6ee7b7 !important; }
+.dark .bg-amber-50, .dark .bg-amber-100 { background-color: rgba(245,158,11,0.15) !important; }
+.dark .text-amber-700 { color: #fcd34d !important; }
+.dark .bg-red-50, .dark .bg-red-100 { background-color: rgba(239,68,68,0.15) !important; }
+.dark .text-red-700 { color: #fca5a5 !important; }
+.dark input, .dark textarea, .dark select { background-color: #0f1626; color: #e5e7eb; }
+.dark ::-webkit-scrollbar-thumb { background: #334155; }

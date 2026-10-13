@@ -1,0 +1,32 @@
+# secrets
+.env
+.env.*
+!.env.example
+frontend/.env.local
+backend/app/providers/provider_config.json
+*.pem
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+*.db
+
+# node
+node_modules/
+dist/
+build/
+coverage/
+htmlcov/
+
+# runtime
+logs/
+*.log
+.DS_Store
+~$*

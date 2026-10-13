@@ -1,0 +1,8 @@
+u_external_id,u_incident_external_id,u_appliance_ci_id,u_phone_home_enabled,u_edge_management_enabled,u_upgrade_agent_version,u_precheck_result,u_failed_step,u_required_customer_action,u_source_system
+UPG_0008,APP_INC_0008,CI_0039,Yes,No,2.6.4,Failed,Post-check,Resolve health check warning,SRC_UPG
+UPG_0012,APP_INC_0012,CI_0011,No,Yes,2.6.4,Failed,Post-check,Enable edge management,SRC_UPG
+UPG_0028,APP_INC_0028,CI_0029,Yes,No,2.7.1,Warning,Post-check,Update upgrade agent,SRC_UPG
+UPG_0029,APP_INC_0029,CI_0029,No,Yes,2.7.1,Failed,Post-check,Update upgrade agent,SRC_UPG
+UPG_0038,APP_INC_0038,CI_0017,No,No,2.6.4,Warning,Post-check,Resolve health check warning,SRC_UPG
+UPG_0046,APP_INC_0046,CI_0045,No,Yes,2.5.9,Failed,Pre-check,Resolve health check warning,SRC_UPG
+UPG_0048,APP_INC_0048,CI_0029,No,No,2.6.4,Failed,Post-check,Enable edge management,SRC_UPG

@@ -1,0 +1,139 @@
+{
+  "servicenow": {
+    "name": "ServiceNow",
+    "description": "ServiceNow ITSM and Service Catalog",
+    "icon": "cloud",
+    "questions": [
+      {
+        "id": "instance_url",
+        "label": "Instance URL",
+        "type": "text",
+        "placeholder": "https://dev12345.service-now.com",
+        "required": true,
+        "help": "Your ServiceNow instance URL (without trailing slash)"
+      },
+      {
+        "id": "username",
+        "label": "Username",
+        "type": "text",
+        "required": true,
+        "help": "ServiceNow API user"
+      },
+      {
+        "id": "password",
+        "label": "Password",
+        "type": "password",
+        "required": true,
+        "help": "ServiceNow API user password"
+      }
+    ],
+    "env_vars": {
+      "instance_url": "SERVICENOW_INSTANCE_URL",
+      "username": "SERVICENOW_USERNAME",
+      "password": "SERVICENOW_PASSWORD"
+    }
+  },
+  "jira": {
+    "name": "Jira",
+    "description": "Atlassian Jira Service Management",
+    "icon": "jira",
+    "questions": [
+      {
+        "id": "instance_url",
+        "label": "Instance URL",
+        "type": "text",
+        "placeholder": "https://your-domain.atlassian.net",
+        "required": true,
+        "help": "Your Jira cloud instance URL"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "help": "Jira account email"
+      },
+      {
+        "id": "api_token",
+        "label": "API Token",
+        "type": "password",
+        "required": true,
+        "help": "Generate at https://id.atlassian.com/manage-profile/security/api-tokens"
+      },
+      {
+        "id": "project_key",
+        "label": "Project Key",
+        "type": "text",
+        "placeholder": "SERV",
+        "required": true,
+        "help": "Jira project key for service catalog"
+      }
+    ],
+    "env_vars": {
+      "instance_url": "JIRA_INSTANCE_URL",
+      "email": "JIRA_EMAIL",
+      "api_token": "JIRA_API_TOKEN",
+      "project_key": "JIRA_PROJECT_KEY"
+    }
+  },
+  "freshdesk": {
+    "name": "Freshdesk",
+    "description": "Freshdesk Customer Support & Service",
+    "icon": "freshdesk",
+    "questions": [
+      {
+        "id": "domain",
+        "label": "Subdomain",
+        "type": "text",
+        "placeholder": "company",
+        "required": true,
+        "help": "Your Freshdesk subdomain (from company.freshdesk.com)"
+      },
+      {
+        "id": "api_key",
+        "label": "API Key",
+        "type": "password",
+        "required": true,
+        "help": "Generate in Settings > API & Custom Fields"
+      }
+    ],
+    "env_vars": {
+      "domain": "FRESHDESK_DOMAIN",
+      "api_key": "FRESHDESK_API_KEY"
+    }
+  },
+  "zendesk": {
+    "name": "Zendesk",
+    "description": "Zendesk Customer Service Platform",
+    "icon": "zendesk",
+    "questions": [
+      {
+        "id": "subdomain",
+        "label": "Subdomain",
+        "type": "text",
+        "placeholder": "company",
+        "required": true,
+        "help": "Your Zendesk subdomain (from company.zendesk.com)"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "help": "Zendesk account email"
+      },
+      {
+        "id": "api_token",
+        "label": "API Token",
+        "type": "password",
+        "required": true,
+        "help": "Generate in Admin > API & Webhooks > API Tokens"
+      }
+    ],
+    "env_vars": {
+      "subdomain": "ZENDESK_SUBDOMAIN",
+      "email": "ZENDESK_EMAIL",
+      "api_token": "ZENDESK_API_TOKEN"
+    }
+  }
+}

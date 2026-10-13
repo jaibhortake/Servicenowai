@@ -1,0 +1,10 @@
+u_external_id,u_source_name,u_system_type,u_data_contribution,u_phase,u_trust_level
+SRC_SN,ServiceNow ITSM,System of record,"Incident, SLA, assignment, work notes, escalation, audit trail, closure",Phase 1,Authoritative for support workflow
+SRC_CMDB,CMDB / Asset Registry,Configuration context,"Appliance CI, product model, customer site, environment relationships",Phase 1,Authoritative for infrastructure topology
+SRC_MON,Appliance Monitoring / Fleet Health,Telemetry and health,"Health score, alerts, phone-home status, known issue exposure, capacity, latency",Phase 1,Machine-generated operational evidence
+SRC_VMWARE,VMware / vCenter,Virtual infrastructure,"OVA power state, vCenter connection, datastore, ESXi cluster, collector service state",Phase 2,Authoritative for VMware environment state
+SRC_NET,Network Diagnostic Tool,Connectivity evidence,"DNS, NTP, outbound HTTPS 443, proxy, endpoint reachability",Phase 2,High-confidence technical check
+SRC_KB,Knowledge Base / Runbook Repository,Resolution knowledge,"Approved troubleshooting steps, known causes, remediation actions, escalation criteria",Phase 1,Approved support guidance
+SRC_ENT,Entitlement / Contract System,Commercial support context,"Support tier, contract, renewal date, support coverage, escalation entitlement",Phase 1,Authoritative for support entitlement
+SRC_UPG,Upgrade Orchestration Service,Upgrade workflow,"Pre-check result, agent status, upgrade step, phone-home requirement, failed operation",Phase 2,Authoritative for upgrade operations
+SRC_CASE_HIST,Historical Case Pattern Store,Learning memory,"Similar cases, resolved patterns, recurring issue clusters, previous recommended actions",Phase 1,Derived from historical support outcomes

@@ -1,0 +1,14 @@
+metric,count,notes
+Incidents,50,Exactly 50 incident records
+Diagnostic sessions,50,One per incident
+LLM question log,159,Customer-facing disambiguation questions and answers
+Evidence records,159,Structured facts captured from customer/system sources
+Monitoring signals,50,External appliance health/telemetry context
+VMware context rows,9,Only for VM Analytics/collector cases
+Gateway context rows,9,Only for gateway cases
+Upgrade context rows,7,Only for upgrade cases
+Score log records,1,Only one sample record retained to demonstrate final confidence scoring structure
+Audit events,394,Governed traceability trail
+Escalation packets,38,Specialist handoff evidence packs
+Similar case matches,96,Past-case learning evidence
+Problem records,5,Recurring pattern records
